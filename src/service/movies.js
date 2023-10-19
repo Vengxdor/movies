@@ -15,6 +15,6 @@ export function searchMovies ({ search }) {
         }))
       })
   } else {
-    throw new Error('Error searching movies')
+    // throw new Error('Error searching movies')
   }
 }
